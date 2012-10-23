@@ -1,15 +1,15 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Globalization;
 using System.IO;
-using System.Linq;
-using System.Text;
 using FT.Subdown.Core.Containers;
 using FT.Subdown.Core.Engines;
 using StructureMap;
 
 namespace FT.Subdown.Core
 {
+    /// <summary>
+    /// This is the Facade to the whole thing. That's what a client is suppose to use.
+    /// </summary>
     public static class Subdown
     {
         private static IEngine _engine;

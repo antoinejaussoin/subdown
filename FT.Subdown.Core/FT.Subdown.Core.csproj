@@ -65,6 +65,7 @@
     <Compile Include="Movies\MovieMetadata.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Requests\ISubtitleRequest.cs" />
+    <Compile Include="Requests\SubtitleRequest.cs" />
     <Compile Include="Settings\ISettingsService.cs" />
     <Compile Include="Settings\SettingsService.cs" />
     <Compile Include="Sources\ISubtitleResult.cs" />
