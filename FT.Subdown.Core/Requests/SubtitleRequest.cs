@@ -19,7 +19,9 @@ namespace FT.Subdown.Core.Requests
         }
 
         public string MovieName { get; private set; }
+
         public FileInfo MovieLocation { get; private set; }
+
         public IList<CultureInfo> Languages { get; private set; }
     }
 }

@@ -51,6 +51,7 @@
     <Reference Include="System" />
     <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Web" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -68,6 +69,10 @@
     <Compile Include="Requests\SubtitleRequest.cs" />
     <Compile Include="Settings\ISettingsService.cs" />
     <Compile Include="Settings\SettingsService.cs" />
+    <Compile Include="Sources\Addic7ed\AddictedSubtitle.cs" />
+    <Compile Include="Sources\Addic7ed\IAddic7edSource.cs" />
+    <Compile Include="Sources\Addic7ed\IAddictedResultExtractor.cs" />
+    <Compile Include="Sources\Addic7ed\IAddictedUrlBuilder.cs" />
     <Compile Include="Sources\ISubtitleResult.cs" />
     <Compile Include="Sources\ISubtitleSource.cs" />
     <Compile Include="Sources\OpenSubtitles\IOpenSubtitleLanguageTranslator.cs" />
@@ -75,6 +80,7 @@
     <Compile Include="Sources\OpenSubtitles\OpenSubtitleSource.cs" />
     <Compile Include="Sources\OpenSubtitles\SettingsKeys.cs" />
     <Compile Include="Subdown.cs" />
+    <Compile Include="Utilities\IWebpageDownloader.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Languages\" />
